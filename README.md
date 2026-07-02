@@ -16,7 +16,7 @@
 
 Welcome to the official research handbook for **SSOT-Centric Software Engineering (SCSE)**.
 
-This repository serves as the authoritative knowledge base for the conception, design, implementation, validation, and evolution of the **SCSE research programme**.
+This repository serves as the **authoritative central hub** for the conception, design, implementation, validation, and evolution of the **SCSE research programme**.
 
 Unlike traditional software engineering projects, this repository is not merely a documentation site. It is the **operational knowledge system** that governs the development of an entirely new software engineering paradigm.
 
@@ -32,19 +32,19 @@ In other words,
 
 Software engineering is entering a fundamental transition.
 
-For more than five decades, software engineering has evolved through successive paradigms including structured programming, object-oriented development, component-based engineering, agile methodologies, DevOps, cloud-native architectures, and, more recently, AI-assisted software development.
+For more than five decades, software engineering has evolved through successive paradigms including structured programming, object-oriented development, component-based engineering, agile methodologies, and cloud-native engineering.
 
 Each paradigm has improved how software is produced.
 
 However, none fundamentally treats **engineering knowledge itself** as the primary asset that software engineering must preserve.
 
-Modern AI coding agents can generate implementations at unprecedented speed, yet they frequently lose architectural intent, design rationale, domain semantics, requirement traceability, and decision history as software evolves.
+Modern AI coding agents can generate implementations at unprecedented speed, yet they frequently lose architectural intent, design rationale, domain semantics, requirement traceability, and decision context.
 
 The consequence is a gradual erosion of engineering knowledge across successive transformations of software artifacts.
 
 The SCSE research programme begins with a different assumption.
 
-Instead of treating requirements, architecture, implementation, testing, deployment, and operations as independent documentation artifacts, SCSE models them as interconnected representations of a single evolving engineering knowledge system.
+Instead of treating requirements, architecture, implementation, testing, deployment, and operations as independent documentation artifacts, SCSE models them as interconnected representations of a unified engineering knowledge system.
 
 The central hypothesis is simple:
 
@@ -56,7 +56,7 @@ This shift moves software engineering away from an artifact-centric view toward 
 
 ## What is SCSE?
 
-**SSOT-Centric Software Engineering (SCSE)** is a proposed software engineering paradigm that positions the **Single Source of Truth (SSOT)** as the central engineering knowledge system governing every stage of the software lifecycle.
+**SSOT-Centric Software Engineering (SCSE)** is a proposed software engineering paradigm that positions the **Single Source of Truth (SSOT)** as the central engineering knowledge system governing all phases of software development.
 
 Rather than using the SSOT merely as a repository of project documentation, SCSE elevates it to an active engineering intelligence layer capable of:
 
@@ -148,3 +148,51 @@ The repository therefore embodies four fundamental principles:
 In essence, the handbook practices SCSE while documenting SCSE.
 
 ---
+
+## SCSE Research Ecosystem
+
+This repository serves as the **central research hub** for all SSOT-Driven research initiatives. The SCSE research programme encompasses the following interconnected projects:
+
+### Core Research Infrastructure
+
+| Repository | Purpose | Status |
+|------------|---------|--------|
+| **scse-knowledge-base** | Central research handbook and SSOT for the entire SCSE programme | Active |
+| [ssot_centric_framework](https://github.com/eecheonwu/ssot_centric_framework) | SSOT-Centric Framework implementation for AI-native software engineering | Active |
+| [SSOT-driven-feature-evolution](https://github.com/eecheonwu/SSOT-driven-feature-evolution) | Research and implementation of SSOT-driven feature evolution methodology | Active |
+
+### How to Navigate This Ecosystem
+
+1. **Start here**: Browse this handbook to understand SCSE concepts, research methodology, and theoretical foundations.
+
+2. **Explore implementations**: Visit the linked repositories to see practical implementations of SCSE concepts.
+
+3. **Trace connections**: Each repository references back to specific sections in this handbook, maintaining traceability across the research programme.
+
+4. **Contribute**: All research artifacts should maintain explicit linkage to this central knowledge base.
+
+---
+
+## Quick Navigation
+
+- [Getting Started](#welcome)
+- [Research Overview](#project-overview)
+- [What is SCSE?](#what-is-scse)
+- [Repository Objectives](#repository-objectives)
+- [SCSE Research Ecosystem](#scse-research-ecosystem)
+
+---
+
+## License
+
+This research handbook and all associated artifacts are licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## Contributing
+
+This repository is actively maintained as part of ongoing SCSE research. For contribution guidelines, please refer to the main handbook documentation.
+
+---
+
+**Last Updated**: 2026-07-02
