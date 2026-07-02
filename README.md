@@ -1,4 +1,4 @@
-# SCSE Research Handbook
+# SCSE Research
 
 **The Single Source of Truth (SSOT) for the Research, Development, Validation, and Evolution of SSOT-Centric Software Engineering (SCSE).**
 
