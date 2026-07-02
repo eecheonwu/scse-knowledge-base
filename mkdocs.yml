@@ -1,0 +1,43 @@
+site_name: SCSE Research Monograph
+site_description: SSOT-Centric Software Engineering (SCSE) - Research & Monograph
+site_author: SCSE Research Programme
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+
+  
+  - SCSE Framework:
+      - Overview: docs/index.md
+      - Monograph: docs/monograph.md
+      - Publications: docs/publication.md
+      - Future Research: docs/future-research.md
+
+  - Canonical Research Library:
+      - Index: research-library/index.md
+
+  - Body of Knowledge:
+      - Index: body-of-knowledge/index.md
+
+  - About:
+      - Governance: about/governance.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - codehilite
+  - footnotes
