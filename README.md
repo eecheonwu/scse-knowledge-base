@@ -1,4 +1,4 @@
-# SCSE Research Handbook
+# SCSE Research Monograph
 
 **The Single Source of Truth (SSOT) for the Research, Development, Validation, and Evolution of SSOT-Centric Software Engineering (SCSE).**
 
@@ -7,7 +7,7 @@
 [![Research Status](https://img.shields.io/badge/Status-Active%20Research-blue.svg)]()
 [![Version](https://img.shields.io/badge/Version-v1.0-green.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)]()
-[![Book](https://img.shields.io/badge/Book-In%20Development-purple.svg)]()
+[![Book](https://img.shields.io/badge/Monograph-In%20Development-purple.svg)]()
 [![Research](https://img.shields.io/badge/Research-SCSE-red.svg)]()
 
 ---

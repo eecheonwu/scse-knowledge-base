@@ -4,7 +4,7 @@ title: SCSE Research Monograph
 
 # SSOT-Centric Software Engineering (SCSE) Research Monograph
 
-> **The official handbook for the SCSE Research Programme**
+> **The official Handbook for the SCSE Research Programme**
 
 ***
 
@@ -153,5 +153,4 @@ Continue to:
 - Research Governance
 
 - Canonical Research Library
-
 - SCSE Body of Knowledge
