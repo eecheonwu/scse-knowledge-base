@@ -1,10 +1,10 @@
 ---
-title: SCSE Research Handbook
+title: SCSE Research Monograph
 ---
 
 # SSOT-Centric Software Engineering (SCSE) Research Handbook
 
-> **The official handbook for the SCSE Research Programme**
+> **The official Handbook for the SCSE Research Programme**
 
 ---
 
