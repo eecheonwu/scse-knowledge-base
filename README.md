@@ -14,7 +14,7 @@
 
 ## Welcome
 
-Welcome to the official research handbook for **SSOT-Centric Software Engineering (SCSE)**.
+Welcome to the official research repository for **SSOT-Centric Software Engineering (SCSE)**.
 
 This repository serves as the **authoritative central hub** for the conception, design, implementation, validation, and evolution of the **SCSE research programme**.
 
