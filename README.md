@@ -1,4 +1,4 @@
-# SCSE Research
+# SCSE Research Monograph
 
 **The Single Source of Truth (SSOT) for the Research, Development, Validation, and Evolution of SSOT-Centric Software Engineering (SCSE).**
 
@@ -14,7 +14,7 @@
 
 ## Welcome
 
-Welcome to the official research repository for **SSOT-Centric Software Engineering (SCSE)**.
+Welcome to the official research handbook for **SSOT-Centric Software Engineering (SCSE)**.
 
 This repository serves as the **authoritative central hub** for the conception, design, implementation, validation, and evolution of the **SCSE research programme**.
 
