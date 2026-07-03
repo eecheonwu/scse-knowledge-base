@@ -34,9 +34,7 @@ Software engineering is entering a fundamental transition.
 
 For more than five decades, software engineering has evolved through successive paradigms including structured programming, object-oriented development, component-based engineering, agile methodologies, and cloud-native engineering.
 
-Each paradigm has improved how software is produced.
-
-However, none fundamentally treats **engineering knowledge itself** as the primary asset that software engineering must preserve.
+Each paradigm has improved how software is produced. However, none fundamentally treats **engineering knowledge itself** as the primary asset that software engineering must preserve.
 
 Modern AI coding agents can generate implementations at unprecedented speed, yet they frequently lose architectural intent, design rationale, domain semantics, requirement traceability, and decision context.
 
@@ -76,27 +74,17 @@ Rather than using the SSOT merely as a repository of project documentation, SCSE
 ## Why This Repository Exists
 
 Research programmes frequently become fragmented.
-
 Literature reviews are maintained separately from research notes.
-
 Book manuscripts evolve independently of journal papers.
-
 Prototype implementations diverge from theoretical models.
-
 Experimental datasets become disconnected from the publications that describe them.
-
 Architectural decisions disappear over time.
-
 Definitions evolve inconsistently.
-
 Terminology becomes ambiguous.
 
-The result is research drift.
+The result is **research drift.**
 
-This repository exists to eliminate that problem.
-
-Every research artifact produced within the SCSE programme is intended to be traceable to a single authoritative source maintained within this handbook.
-
+This repository exists to eliminate that problem.Every research artifact produced within the SCSE programme is intended to be traceable to a single authoritative source maintained within this handbook.
 Consequently, this repository manages:
 
 - the canonical research library,
