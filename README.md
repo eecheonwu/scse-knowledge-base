@@ -1,4 +1,4 @@
-# SCSE Research Monograph
+# SCSE Research 
 
 **The Single Source of Truth (SSOT) for the Research, Development, Validation, and Evolution of SSOT-Centric Software Engineering (SCSE).**
 
@@ -14,7 +14,7 @@
 
 ## Welcome
 
-Welcome to the official research handbook for **SSOT-Centric Software Engineering (SCSE)**.
+Welcome to the official research repository for **SSOT-Centric Software Engineering (SCSE)**.
 
 This repository serves as the **authoritative central hub** for the conception, design, implementation, validation, and evolution of the **SCSE research programme**.
 
@@ -34,9 +34,7 @@ Software engineering is entering a fundamental transition.
 
 For more than five decades, software engineering has evolved through successive paradigms including structured programming, object-oriented development, component-based engineering, agile methodologies, and cloud-native engineering.
 
-Each paradigm has improved how software is produced.
-
-However, none fundamentally treats **engineering knowledge itself** as the primary asset that software engineering must preserve.
+Each paradigm has improved how software is produced. However, none fundamentally treats **engineering knowledge itself** as the primary asset that software engineering must preserve.
 
 Modern AI coding agents can generate implementations at unprecedented speed, yet they frequently lose architectural intent, design rationale, domain semantics, requirement traceability, and decision context.
 
@@ -76,27 +74,17 @@ Rather than using the SSOT merely as a repository of project documentation, SCSE
 ## Why This Repository Exists
 
 Research programmes frequently become fragmented.
-
 Literature reviews are maintained separately from research notes.
-
 Book manuscripts evolve independently of journal papers.
-
 Prototype implementations diverge from theoretical models.
-
 Experimental datasets become disconnected from the publications that describe them.
-
 Architectural decisions disappear over time.
-
 Definitions evolve inconsistently.
-
 Terminology becomes ambiguous.
 
-The result is research drift.
+The result is **research drift.**
 
-This repository exists to eliminate that problem.
-
-Every research artifact produced within the SCSE programme is intended to be traceable to a single authoritative source maintained within this handbook.
-
+This repository exists to eliminate that problem.Every research artifact produced within the SCSE programme is intended to be traceable to a single authoritative source maintained within this handbook.
 Consequently, this repository manages:
 
 - the canonical research library,
@@ -116,7 +104,7 @@ Consequently, this repository manages:
 
 ## Repository Objectives
 
-The handbook has six primary objectives.
+The repository has six primary objectives.
 
 1. Preserve all engineering knowledge produced during the SCSE research programme.
 
@@ -129,23 +117,6 @@ The handbook has six primary objectives.
 5. Coordinate the simultaneous development of the SCSE monograph, journal papers, and software artifacts.
 
 6. Enable future researchers to extend the SCSE body of knowledge without losing conceptual consistency.
-
----
-
-## Repository Philosophy
-
-This handbook follows exactly the same philosophy that SCSE advocates for software engineering.
-
-Instead of treating documentation as passive artifacts, every document in this repository represents an evolving engineering knowledge asset.
-
-The repository therefore embodies four fundamental principles:
-
-- Knowledge before artifacts.
-- Traceability before implementation.
-- Semantic consistency before automation.
-- Governance before evolution.
-
-In essence, the handbook practices SCSE while documenting SCSE.
 
 ---
 
@@ -163,7 +134,7 @@ This repository serves as the **central research hub** for all SSOT-Driven resea
 
 ### How to Navigate This Ecosystem
 
-1. **Start here**: Browse this handbook to understand SCSE concepts, research methodology, and theoretical foundations.
+1. **Start here**: Browse the monograph to understand SCSE concepts, research methodology, and theoretical foundations.
 
 2. **Explore implementations**: Visit the linked repositories to see practical implementations of SCSE concepts.
 
@@ -185,13 +156,13 @@ This repository serves as the **central research hub** for all SSOT-Driven resea
 
 ## License
 
-This research handbook and all associated artifacts are licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This research repository and all associated artifacts are licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
 ## Contributing
 
-This repository is actively maintained as part of ongoing SCSE research. For contribution guidelines, please refer to the main handbook documentation.
+This repository is actively maintained as part of ongoing SCSE research. For contribution guidelines, please refer to the main repository documentation.
 
 ---
 
