@@ -104,7 +104,7 @@ Consequently, this repository manages:
 
 ## Repository Objectives
 
-The handbook has six primary objectives.
+The repository has six primary objectives.
 
 1. Preserve all engineering knowledge produced during the SCSE research programme.
 
