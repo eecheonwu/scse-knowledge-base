@@ -1,4 +1,4 @@
-# SCSE Research Monograph
+# SCSE Research 
 
 **The Single Source of Truth (SSOT) for the Research, Development, Validation, and Evolution of SSOT-Centric Software Engineering (SCSE).**
 
@@ -14,7 +14,7 @@
 
 ## Welcome
 
-Welcome to the official research handbook for **SSOT-Centric Software Engineering (SCSE)**.
+Welcome to the official research repository for **SSOT-Centric Software Engineering (SCSE)**.
 
 This repository serves as the **authoritative central hub** for the conception, design, implementation, validation, and evolution of the **SCSE research programme**.
 
@@ -134,7 +134,7 @@ This repository serves as the **central research hub** for all SSOT-Driven resea
 
 ### How to Navigate This Ecosystem
 
-1. **Start here**: Browse this handbook to understand SCSE concepts, research methodology, and theoretical foundations.
+1. **Start here**: Browse the monograph to understand SCSE concepts, research methodology, and theoretical foundations.
 
 2. **Explore implementations**: Visit the linked repositories to see practical implementations of SCSE concepts.
 
@@ -156,13 +156,13 @@ This repository serves as the **central research hub** for all SSOT-Driven resea
 
 ## License
 
-This research handbook and all associated artifacts are licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This research repository and all associated artifacts are licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
 ## Contributing
 
-This repository is actively maintained as part of ongoing SCSE research. For contribution guidelines, please refer to the main handbook documentation.
+This repository is actively maintained as part of ongoing SCSE research. For contribution guidelines, please refer to the main repository documentation.
 
 ---
 
