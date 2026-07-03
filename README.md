@@ -120,23 +120,6 @@ The repository has six primary objectives.
 
 ---
 
-## Repository Philosophy
-
-This handbook follows exactly the same philosophy that SCSE advocates for software engineering.
-
-Instead of treating documentation as passive artifacts, every document in this repository represents an evolving engineering knowledge asset.
-
-The repository therefore embodies four fundamental principles:
-
-- Knowledge before artifacts.
-- Traceability before implementation.
-- Semantic consistency before automation.
-- Governance before evolution.
-
-In essence, the handbook practices SCSE while documenting SCSE.
-
----
-
 ## SCSE Research Ecosystem
 
 This repository serves as the **central research hub** for all SSOT-Driven research initiatives. The SCSE research programme encompasses the following interconnected projects:
