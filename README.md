@@ -6,7 +6,7 @@
 
 [![Research Status](https://img.shields.io/badge/Status-Active%20Research-blue.svg)]()
 [![Version](https://img.shields.io/badge/Version-v1.0-green.svg)]()
-[![License](https://img.shields.io/badge/License-Apache 2.0-orange.svg)]()
+[![License](https://img.shields.io/badge/License-Apache-2.0-orange.svg)]()
 [![Book](https://img.shields.io/badge/Monograph-In%20Development-purple.svg)]()
 [![Research](https://img.shields.io/badge/Research-SCSE-red.svg)]()
 
