@@ -1,4 +1,4 @@
-/* Index page styles — portrait split layout for a professional research chair site, top heading */
+/* Index page styles — portrait split layout for a professional research chair site, top heading with menu */
 :root{
   --bg: #071226;
   --panel-bg: rgba(255,255,255,0.02);
@@ -13,13 +13,16 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe 
 
 /* Top heading bar */
 .topbar{width:100%;background:linear-gradient(90deg,rgba(46,196,182,0.06),rgba(104,184,255,0.04));backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,0.03);position:sticky;top:0;z-index:1200}
-.topbar-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:center}
+.topbar-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
 .topbar-title{margin:0;font-size:18px;font-weight:700;letter-spacing:0.6px;color:var(--text)}
+.topbar-nav{display:flex;gap:12px}
+.topbar-link{color:var(--muted);text-decoration:none;font-weight:700;padding:6px 10px;border-radius:8px}
+.topbar-link:hover{color:var(--accent);background:rgba(46,196,182,0.03)}
 
 .index-root{min-height:100vh;display:flex;flex-direction:column}
 
 /* Main split layout */
-.split-portrait{flex:1;display:flex;flex-direction:row;align-items:stretch;justify-content:stretch;gap:28px;max-width:1200px;margin:48px auto;padding:20px}
+.split-portrait{flex:1;display:flex;flex-direction:row;align-items:stretch;justify-content:stretch;gap:28px;max-width:1200px;margin:28px auto;padding:20px}
 .panel{flex:1;background:var(--panel-bg);border-radius:14px;padding:22px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;border:1px solid rgba(255,255,255,0.03);box-shadow:0 8px 30px rgba(2,6,23,0.6)}
 
 /* Portrait (left) */
@@ -41,12 +44,16 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe 
 .research-title{margin:0;font-size:20px}
 .link{color:var(--accent)}
 
+/* Anchor sections */
+.anchor-section{max-width:1200px;margin:18px auto;padding:18px 20px;border-radius:10px;background:transparent}
+.anchor-inner{background:rgba(255,255,255,0.01);padding:16px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+
 /* Footer */
 .index-footer{text-align:center;padding:18px 0;color:var(--muted)}
 
 /* Responsive adjustments */
 @media (max-width:980px){
-  .split-portrait{flex-direction:column;margin:28px auto;padding:14px}
+  .split-portrait{flex-direction:column;margin:18px auto;padding:14px}
   .portrait-img{width:220px;height:290px}
   .research-img{max-width:420px}
   .bio-text p{font-size:15px}
@@ -56,4 +63,5 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe 
   .portrait-img{width:160px;height:210px}
   .bio{padding:0 6px}
   .research-img{max-width:320px}
+  .topbar-inner{padding:10px}
 }
