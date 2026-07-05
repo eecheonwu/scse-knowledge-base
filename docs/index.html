@@ -25,12 +25,15 @@
       <!-- Left: Portrait panel (Dr. Echeonwu) -->
       <section class="panel panel-left">
         <div class="portrait-wrap">
-          <picture>
-            <!-- Optimized WebP uploaded: emmy_715x715.webp -->
-            <source srcset="/docs/emmy_715x715.webp" type="image/webp">
-            <!-- Fallback to original JPG if needed -->
-            <img src="/docs/emmy.jpg" alt="Dr. Emmanuel Chinyere Echeonwu" class="portrait-img" loading="lazy" width="715" height="715">
-          </picture>
+          <!-- Serve only WebP (modern browsers). Responsive sizes via srcset/sizes. -->
+          <img
+            src="/docs/emmy_715x715.webp"
+            srcset="/docs/emmy_715x715.webp 715w"
+            sizes="(max-width:520px) 160px, (max-width:980px) 220px, 260px"
+            alt="Dr. Emmanuel Chinyere Echeonwu"
+            class="portrait-img"
+            loading="lazy"
+            width="715" height="715">
         </div>
 
         <div class="bio">
@@ -54,12 +57,18 @@
       <!-- Right: Research image panel (SSOT) -->
       <section class="panel panel-right">
         <div class="research-wrap">
-          <picture>
-            <!-- Optimized WebP uploaded by you (1024x1536) -->
-            <source srcset="/docs/ChatGPT%20Image%20Jul%205%2C%202026%2C%2006_51_45%20PM_1024x1536.webp" type="image/webp">
-            <!-- Fallback to original PNG (long filename with encoded spaces/commas) -->
-            <img src="/docs/ChatGPT%20Image%20Jul%205%2C%202026%2C%2006_51_45%20PM.png" alt="SSOT — Single Source of Truth diagram" class="research-img" loading="lazy">
-          </picture>
+          <!-- Accessible figure with caption, serve WebP only, responsive sizing via srcset -->
+          <figure class="ssot-figure">
+            <img
+              src="/docs/ChatGPT%20Image%20Jul%205%2C%202026%2C%2006_51_45%20PM_1024x1536.webp"
+              srcset="/docs/ChatGPT%20Image%20Jul%205%2C%202026%2C%2006_51_45%20PM_1024x1536.webp 1024w"
+              sizes="(max-width:520px) 320px, (max-width:980px) 420px, 520px"
+              alt="Diagram: Single Source of Truth (SSOT) — shows components and data flows"
+              class="research-img"
+              loading="lazy"
+              width="1024" height="1536">
+            <figcaption class="ssot-caption">SSOT diagram — the Single Source of Truth (SSOT) forms the central canonical knowledge system that governs software evolution and agentic behaviour. <a href="/docs/ChatGPT%20Image%20Jul%205%2C%202026%2C%2006_51_45%20PM_1024x1536.webp" target="_blank" rel="noopener">Open full size</a></figcaption>
+          </figure>
         </div>
 
         <div class="research-caption">
@@ -83,8 +92,24 @@
     <section id="contact" class="anchor-section">
       <div class="anchor-inner">
         <h3>Contact</h3>
-        <p class="muted">For enquiries, collaborations, or speaking engagements, please reach out via</p>
-        <p><a class="link" href="https://about.me/eecheonwu" target="_blank" rel="noopener">About.me</a> • <a class="link" href="https://github.com/eecheonwu" target="_blank" rel="noopener">GitHub</a></p>
+        <p class="muted">Use the form below to prepare an email using your local mail application. This opens your default mail client so you can review and send.</p>
+
+        <form id="contact-form" class="contact-form" aria-label="Contact form">
+          <label for="c-name">Your name</label>
+          <input id="c-name" name="name" type="text" placeholder="Your name" required>
+
+          <label for="c-email">Your email</label>
+          <input id="c-email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="c-subject">Subject</label>
+          <input id="c-subject" name="subject" type="text" placeholder="Brief subject" required>
+
+          <label for="c-message">Message</label>
+          <textarea id="c-message" name="message" rows="6" placeholder="Write your message" required></textarea>
+
+          <p class="small muted">Note: This form opens your email client. Replace recipientEmail in the JS if you want messages to be sent to a specific address.</p>
+          <button type="submit" class="btn-outline">Open email client</button>
+        </form>
       </div>
     </section>
 
@@ -92,5 +117,7 @@
       <p class="muted small">Design: professional portrait split • Colors tuned for academic and research visibility</p>
     </footer>
   </div>
+
+  <script src="assets/site.js"></script>
 </body>
 </html>
