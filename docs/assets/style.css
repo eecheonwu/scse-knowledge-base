@@ -1,0 +1,19 @@
+/* SCSE GitHub Pages basic stylesheet */
+:root{
+  --bg:#0f1720;
+  --panel:#0b1220;
+  --text:#e6eef6;
+  --accent:#6fb3ff;
+  --muted:#9fb3c9;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,var(--bg),#061021);color:var(--text);margin:0;line-height:1.6}
+.container{max-width:980px;margin:0 auto;padding:28px}
+.site-header{padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.04)}
+.site-header h1{margin:0;font-size:28px}
+.tagline{margin:6px 0 12px;color:var(--muted)}
+nav a{color:var(--accent);margin-right:12px;text-decoration:none}
+.panel{background:rgba(255,255,255,0.02);padding:20px;border-radius:8px;margin:18px 0}
+.repo-link{color:var(--accent);text-decoration:underline}
+.site-footer{padding:20px 0;border-top:1px solid rgba(255,255,255,0.03);color:var(--muted);font-size:14px}
+.small{font-size:13px;color:var(--muted)}
