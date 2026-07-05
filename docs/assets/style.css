@@ -1,4 +1,4 @@
-/* Index page styles — portrait split layout for a professional research chair site, using original images */
+/* Index page styles — portrait split layout for a professional research chair site, top heading */
 :root{
   --bg: #071226;
   --panel-bg: rgba(255,255,255,0.02);
@@ -10,6 +10,11 @@
 }
 *{box-sizing:border-box}
 html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial;color:var(--text);background:linear-gradient(180deg,var(--bg),#04121a)}
+
+/* Top heading bar */
+.topbar{width:100%;background:linear-gradient(90deg,rgba(46,196,182,0.06),rgba(104,184,255,0.04));backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,0.03);position:sticky;top:0;z-index:1200}
+.topbar-inner{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:center}
+.topbar-title{margin:0;font-size:18px;font-weight:700;letter-spacing:0.6px;color:var(--text)}
 
 .index-root{min-height:100vh;display:flex;flex-direction:column}
 
