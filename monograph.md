@@ -191,16 +191,6 @@ The long-term goals of the monograph are to:
 
 ---
 
-# Repository Status
-
-The SCSE Research Monograph is a living research artifact.
-
-Rather than being written independently of the research programme, it evolves alongside the SCSE Body of Knowledge, research publications, software prototypes, and empirical validation activities.
-
-This iterative development process ensures that the monograph remains aligned with the latest research findings while preserving the historical evolution of the SCSE framework.
-
----
-
 # Future Work
 
 Planned activities for the monograph include:
