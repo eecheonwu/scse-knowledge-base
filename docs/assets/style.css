@@ -47,8 +47,12 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe 
 .research-title{margin:0;font-size:20px}
 .link{color:var(--accent)}
 
+/* Contact form frame styling */
+.contact-frame{width:100%;max-width:700px;margin-top:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);padding:18px;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+.contact-frame:focus-within{outline:2px solid rgba(46,196,182,0.14);outline-offset:4px}
+
 /* Contact form */
-.contact-form{display:flex;flex-direction:column;gap:8px;max-width:640px}
+.contact-form{display:flex;flex-direction:column;gap:8px}
 .contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:rgba(255,255,255,0.01);color:var(--text)}
 .contact-form label{font-weight:600;color:var(--muted);font-size:13px}
 .contact-form button{align-self:flex-start}
@@ -66,6 +70,7 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe 
   .portrait-img{width:220px;height:220px}
   .research-img{max-width:420px}
   .bio-text p{font-size:15px}
+  .contact-frame{max-width:100%}
 }
 
 @media (max-width:520px){

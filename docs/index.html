@@ -60,14 +60,14 @@
           <!-- Accessible figure with caption, serve WebP only, responsive sizing via srcset -->
           <figure class="ssot-figure">
             <img
-              src="/docs/ssot.webp"
-              srcset="/docs/ssot.webp"
+              src="/docs/ChatGPT%20Image%20Jul%205%2C%202026%2C%2006_51_45%20PM_1024x1536.webp"
+              srcset="/docs/ChatGPT%20Image%20Jul%205%2C%202026%2C%2006_51_45%20PM_1024x1536.webp 1024w"
               sizes="(max-width:520px) 320px, (max-width:980px) 420px, 520px"
               alt="Diagram: Single Source of Truth (SSOT) — shows components and data flows"
               class="research-img"
               loading="lazy"
               width="1024" height="1536">
-            <figcaption class="ssot-caption">SSOT diagram — the Single Source of Truth (SSOT) forms the central canonical knowledge system that governs software evolution and agentic behaviour. <a href="/docs/ssot.webp" target="_blank" rel="noopener">Open full size</a></figcaption>
+            <figcaption class="ssot-caption">SSOT diagram — the Single Source of Truth (SSOT) forms the central canonical knowledge system that governs software evolution and agentic behaviour. <a href="/docs/ChatGPT%20Image%20Jul%205%2C%202026%2C%2006_51_45%20PM_1024x1536.webp" target="_blank" rel="noopener">Open full size</a></figcaption>
           </figure>
         </div>
 
@@ -94,22 +94,25 @@
         <h3>Contact</h3>
         <p class="muted">Use the form below to prepare an email using your local mail application. This opens your default mail client so you can review and send.</p>
 
-        <form id="contact-form" class="contact-form" aria-label="Contact form">
-          <label for="c-name">Your name</label>
-          <input id="c-name" name="name" type="text" placeholder="Your name" required>
+        <!-- Contact form placed inside a framed container for emphasis and accessibility -->
+        <div class="contact-frame" role="region" aria-label="Contact form">
+          <form id="contact-form" class="contact-form" aria-label="Contact form">
+            <label for="c-name">Your name</label>
+            <input id="c-name" name="name" type="text" placeholder="Your name" required>
 
-          <label for="c-email">Your email</label>
-          <input id="c-email" name="email" type="email" placeholder="you@example.com" required>
+            <label for="c-email">Your email</label>
+            <input id="c-email" name="email" type="email" placeholder="you@example.com" required>
 
-          <label for="c-subject">Subject</label>
-          <input id="c-subject" name="subject" type="text" placeholder="Brief subject" required>
+            <label for="c-subject">Subject</label>
+            <input id="c-subject" name="subject" type="text" placeholder="Brief subject" required>
 
-          <label for="c-message">Message</label>
-          <textarea id="c-message" name="message" rows="6" placeholder="Write your message" required></textarea>
+            <label for="c-message">Message</label>
+            <textarea id="c-message" name="message" rows="6" placeholder="Write your message" required></textarea>
 
-          <p class="small muted">Note: This form opens your email client. Replace recipientEmail in the JS if you want messages to be sent to a specific address.</p>
-          <button type="submit" class="btn-outline">Open email client</button>
-        </form>
+            <p class="small muted">Note: This form opens your email client. Replace recipientEmail in the JS if you want messages to be sent to a specific address.</p>
+            <button type="submit" class="btn-outline">Open email client</button>
+          </form>
+        </div>
       </div>
     </section>
 
