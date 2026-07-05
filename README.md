@@ -18,7 +18,7 @@ Welcome to the official research repository for **SSOT-Centric Software Engineer
 
 This repository serves as the **authoritative central hub** for the conception, design, implementation, validation, and evolution of the **SCSE research programme**.
 
-Unlike traditional software engineering projects, this repository is not merely a documentation site. It is the **operational knowledge system** that governs the development of an entirely new software[...]
+Unlike traditional software engineering projects, this repository is not merely a documentation site. It is the **operational knowledge system** that governs the development of an entirely new software engineering paradigm.
 
 Every concept, architectural decision, experiment, publication, software prototype, benchmark, and chapter within the SCSE programme originates from this repository.
 
@@ -32,17 +32,17 @@ In other words,
 
 Software engineering is entering a fundamental transition.
 
-For more than five decades, software engineering has evolved through successive paradigms including structured programming, object-oriented development, component-based engineering, agile methodologies[...]
+For more than five decades, software engineering has evolved through successive paradigms including structured programming, object-oriented development, component-based engineering, agile methodologies, and microservices architecture.
 
 Each paradigm has improved how software is produced. However, none fundamentally treats **engineering knowledge itself** as the primary asset that software engineering must preserve.
 
-Modern AI coding agents can generate implementations at unprecedented speed, yet they frequently lose architectural intent, design rationale, domain semantics, requirement traceability, and decision context[...]
+Modern AI coding agents can generate implementations at unprecedented speed, yet they frequently lose architectural intent, design rationale, domain semantics, requirement traceability, and decision context.
 
 The consequence is a gradual erosion of engineering knowledge across successive transformations of software artifacts.
 
 The SCSE research programme begins with a different assumption.
 
-Instead of treating requirements, architecture, implementation, testing, deployment, and operations as independent documentation artifacts, SCSE models them as interconnected representations of a unified[...]
+Instead of treating requirements, architecture, implementation, testing, deployment, and operations as independent documentation artifacts, SCSE models them as interconnected representations of a unified engineering knowledge system.
 
 The central hypothesis is simple:
 
@@ -54,7 +54,7 @@ This shift moves software engineering away from an artifact-centric view toward 
 
 ## What is SCSE?
 
-**SSOT-Centric Software Engineering (SCSE)** is a proposed software engineering paradigm that positions the **Single Source of Truth (SSOT)** as the central engineering knowledge system governing all[...]
+**SSOT-Centric Software Engineering (SCSE)** is a proposed software engineering paradigm that positions the **Single Source of Truth (SSOT)** as the central engineering knowledge system governing all software development and evolution.
 
 Rather than using the SSOT merely as a repository of project documentation, SCSE elevates it to an active engineering intelligence layer capable of:
 
@@ -68,6 +68,8 @@ Rather than using the SSOT merely as a repository of project documentation, SCSE
 - validating software evolution,
 - measuring knowledge preservation,
 - and enabling intelligent software governance.
+
+![SSOT Conceptual Model](SSOT.png)
 
 ---
 
@@ -84,7 +86,8 @@ Terminology becomes ambiguous.
 
 The result is **research drift.**
 
-This repository exists to eliminate that problem.Every research artifact produced within the SCSE programme is intended to be traceable to a single authoritative source maintained within this handbook[...]
+This repository exists to eliminate that problem. Every research artifact produced within the SCSE programme is intended to be traceable to a single authoritative source maintained within this handbook.
+
 Consequently, this repository manages:
 
 - the canonical research library,
@@ -166,4 +169,4 @@ This repository is actively maintained as part of ongoing SCSE research. For con
 
 ---
 
-**Last Updated**: 2026-07-02
+**Last Updated**: 2026-07-05
