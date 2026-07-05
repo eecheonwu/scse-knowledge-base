@@ -25,10 +25,12 @@
       <!-- Left: Portrait panel (Dr. Echeonwu) -->
       <section class="panel panel-left">
         <div class="portrait-wrap">
-          <!-- Serve only WebP (modern browsers). Responsive sizes via srcset/sizes. -->
+          <!-- Serve only WebP (modern browsers). Responsive sizes via srcset/sizes. Use repo-prefixed absolute paths for GitHub Pages project site -->
           <img
-            src="emmy_715x715.webp"
-            srcset="emmy_715x715.webp 715w"
+            data-src="emmy_715x715.webp"
+            src="/scse-knowledge-base/emmy_715x715.webp"
+            data-srcset="emmy_715x715.webp 715w"
+            srcset="/scse-knowledge-base/emmy_715x715.webp 715w"
             sizes="(max-width:520px) 160px, (max-width:980px) 220px, 260px"
             alt="Dr. Emmanuel Chinyere Echeonwu"
             class="portrait-img"
@@ -57,17 +59,19 @@
       <!-- Right: Research image panel (SSOT) -->
       <section class="panel panel-right">
         <div class="research-wrap">
-          <!-- Accessible figure with caption, serve WebP only, responsive sizing via srcset -->
+          <!-- Accessible figure with caption, serve WebP only, responsive sizing via srcset. Use repo-prefixed absolute paths for GitHub Pages -->
           <figure class="ssot-figure">
             <img
-              src="ssot.webp"
-              srcset="ssot.webp 1024w"
+              data-src="ssot.webp"
+              src="/scse-knowledge-base/ssot.webp"
+              data-srcset="ssot.webp 1024w"
+              srcset="/scse-knowledge-base/ssot.webp 1024w"
               sizes="(max-width:520px) 320px, (max-width:980px) 420px, 520px"
               alt="Diagram: Single Source of Truth (SSOT) — shows components and data flows"
               class="research-img"
               loading="lazy"
               width="1024" height="1536">
-            <figcaption class="ssot-caption">SSOT diagram — the Single Source of Truth (SSOT) forms the central canonical knowledge system that governs software evolution and agentic behaviour. <a href="ssot.webp" target="_blank" rel="noopener">Open full size</a></figcaption>
+            <figcaption class="ssot-caption">SSOT diagram — the Single Source of Truth (SSOT) forms the central canonical knowledge system that governs software evolution and agentic behaviour. <a data-href="ssot.webp" href="/scse-knowledge-base/ssot.webp" class="ssot-link" target="_blank" rel="noopener">Open full size</a></figcaption>
           </figure>
         </div>
 
