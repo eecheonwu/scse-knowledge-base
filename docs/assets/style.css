@@ -1,4 +1,4 @@
-/* Enhanced SCSE GitHub Pages stylesheet */
+/* Enhanced SCSE GitHub Pages stylesheet with header image */
 :root{
   --bg-0: #071226; /* deep */
   --bg-1: linear-gradient(135deg,#07203a 0%, #061224 100%);
@@ -22,14 +22,26 @@ body{
 }
 .page-root{display:flex;flex-direction:column;min-height:100vh}
 
-.site-header{padding:22px 20px}
-.header-inner{max-width:980px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+/* Header with banner image (SSOT1.png placed in docs/) */
+.site-header{
+  padding:22px 20px;
+  background-image: url('../SSOT1.png');
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  min-height:180px;
+  display:flex;
+  align-items:center;
+  border-bottom: none;
+}
+.site-header::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(2,6,23,0.65),rgba(2,6,23,0.45));}
+.header-inner{max-width:980px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px;position:relative;z-index:1}
 .brand{display:flex;align-items:center;gap:14px}
 .logo{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#03192a;padding:10px 14px;border-radius:10px;font-weight:800;font-size:18px}
 .brand-text h1{margin:0;font-size:16px;font-weight:700}
 .subtitle{margin:2px 0 0;color:var(--muted);font-size:13px}
 
-.main-nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-weight:600}
+.main-nav a{color:var(--text);text-decoration:none;margin-left:14px;font-weight:600;opacity:0.95}
 .main-nav a:hover{color:var(--accent)}
 
 /* Hero centered */
