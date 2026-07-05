@@ -28,15 +28,6 @@
           <a href="#contribute">Contribute</a>
         </nav>
       </div>
-
-      <!-- Accessible offscreen image + picture element for WebP support and lightbox trigger -->
-      <a class="header-banner-link" href="/docs/SSOT1.png" id="banner-link" aria-label="Open SSOT diagram">
-        <picture>
-          <!-- Browsers that support WebP will use SSOT1.webp if it exists; otherwise the PNG will be used. -->
-          <source srcset="/docs/SSOT1.webp" type="image/webp">
-          <img src="/docs/SSOT1.png" alt="SSOT diagram" class="header-banner-image" loading="lazy">
-        </picture>
-      </a>
     </header>
 
     <main class="hero">
@@ -96,17 +87,6 @@
         <p class="small">Available when published at: <a href="https://eecheonwu.github.io/scse-knowledge-base/">https://eecheonwu.github.io/scse-knowledge-base/</a></p>
       </div>
     </footer>
-
-    <!-- Lightbox modal -->
-    <div id="lightbox" class="lightbox" aria-hidden="true">
-      <button class="lightbox-close" aria-label="Close image">×</button>
-      <div class="lightbox-content">
-        <img id="lightbox-img" src="/docs/SSOT1.png" alt="SSOT diagram (full size)">
-        <p class="lightbox-caption">SSOT diagram — click to open image in a new tab.</p>
-      </div>
-    </div>
   </div>
-
-  <script src="assets/lightbox.js"></script>
 </body>
 </html>
