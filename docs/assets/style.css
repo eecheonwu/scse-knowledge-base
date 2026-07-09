@@ -9,7 +9,7 @@
   --glass: rgba(255,255,255,0.03);
 }
 *{box-sizing:border-box}
-html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial;color:var(--text);background:linear-gradient(180deg,var(--bg),#04121a);scroll-behavior:smooth}
+html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial;color:var(--text);background:linear-gradient(180deg,var(--bg),#6366f1);scroll-behavior:smooth}
 
 /* Top heading bar */
 .topbar{width:100%;background:linear-gradient(90deg,rgba(46,196,182,0.06),rgba(104,184,255,0.04));backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,0.03);position:sticky;top:0;z-index:1200}
