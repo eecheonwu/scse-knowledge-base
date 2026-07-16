@@ -36,24 +36,24 @@ This repository contains the complete research monograph, supporting research ar
 
 ## Chapter 2 — **SSOT-Centric Software Engineering: A New Paradigm**
 
-- Introduction
+- 2.1 Introduction
 
-- Defining the Single Source of Truth
+- 2.2 Defining the Single Source of Truth
 
-- Why "SSOT-Centric" instead of "SSOT-Driven"
+- 2.3 Why "SSOT-Centric" instead of "SSOT-Driven"
 
-- Defining SSOT-Centric Software Engineering
+- 2.4 Defining SSOT-Centric Software Engineering
 
-- Core Principles of SSOT-Centric Software Engineering
+- 2.5 Core Principles of SSOT-Centric Software Engineering
 
-- The SCSE Archtectural Model
+- 2.6 The SCSE Archtectural Model
 
-- SSOT-Centric Software Engineering versus Existing Software Engineering Paradigms
+- 2.7 SSOT-Centric Software Engineering versus Existing Software Engineering Paradigms
 
-- The SCSE Software Lifecycle Model
+- 2.8 The SCSE Software Lifecycle Model
 
-- The Significance of SSOT-Centric Software Engineering
+- 2.9 The Significance of SSOT-Centric Software Engineering
 
-- Summary
+- 2.10 Summary
 
 *More Chapters coming!*
